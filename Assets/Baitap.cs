@@ -1,45 +1,40 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Baitap : MonoBehaviour
+
+
+
+public class BaiTap : MonoBehaviour
 {
+
+
+    int[] ScoreArray = { 1, 2, 4, 2, 6, 1, 7, 8, 6, 5 };
+
    
+    
 
-
- int[] ScoreArray = { 1, 2, 4, 2, 6, 1, 7, 8, 6, 5 };
- 
- int b = 0 ; 
-
-// Start is called before the first frame update
-void Start()
+       // Start is called before the first frame update
+            void Start()
     {
         for (int i = 0; i < ScoreArray.Length; i++)
-        
-        
-        
-        {
-            if (i = ) 
-            {
-                Debug.Log("số giống nhau");
-            }
 
            
+        {
 
+            
+            if (i == ScoreArray[i])
+                Debug.Log($"so trung nhau {ScoreArray[i]}");
+            else
+            {
+                if (i != ScoreArray[i] )
+                Debug.Log($"so khac nhau {ScoreArray[i]}");
+            
+            }
 
+            
 
-
-
-
-
-        } 
-
-
-
-
-
-
-
+        }
 
 
 

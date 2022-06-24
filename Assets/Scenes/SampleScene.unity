@@ -221,6 +221,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e513e1b794052f24184b4479235be990, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ScoreArray: 01000000020000000400000002000000060000000100000007000000080000000600000005000000
 --- !u!114 &519420034
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -233,3 +234,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52a844df2d795024486b61630c639647, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scoreArray: 000000000100000002000000030000000400000005000000
