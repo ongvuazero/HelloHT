@@ -15,8 +15,8 @@ public class baitapvenha1 : MonoBehaviour
         ham2thamso(5, 6);
         ham2thamso2(7, 6);
         ham3thamso(20, 6);
-        float ketqua1z = ham3thamso1z(2,7, 6);
-        tinhtoan3(10, 6);
+        float ketqua1z = ham3thamso1z(2,7, 6,8);
+        tinhtoan3(2,10, 6,8);
 
     }
     void khongtravegiatri(int a, float b)
@@ -96,10 +96,10 @@ public class baitapvenha1 : MonoBehaviour
     }
 
 
-    float ham3thamso1z(float pheptinh, int a, int b)
+    float ham3thamso1z(float pheptinh, int a, int b,int c)
     {
-        int c = 0;
-        float ketqua3 = 0;
+        
+        float ketqua3;
         switch (pheptinh) 
         {
             case 2:
@@ -122,10 +122,9 @@ public class baitapvenha1 : MonoBehaviour
         return ketqua3;
     }
 
-    void tinhtoan3(int a, int b) 
+    void tinhtoan3(int ketqua4,int a, int b,int c) 
     {
-        int c = 0;
-        float ketqua4 = 0;
+         
         float pheptinh4;
         switch (ketqua4)
         {
