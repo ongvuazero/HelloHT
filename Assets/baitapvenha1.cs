@@ -15,7 +15,9 @@ public class baitapvenha1 : MonoBehaviour
         ham2thamso(5, 6);
         ham2thamso2(7, 6);
         ham3thamso(20, 6);
-        float ketqua1z = ham3thamso1z(7, 6);
+        float ketqua1z = ham3thamso1z(2,7, 6);
+        tinhtoan3(10, 6);
+
     }
     void khongtravegiatri(int a, float b)
     {
@@ -94,40 +96,62 @@ public class baitapvenha1 : MonoBehaviour
     }
 
 
-    float ham3thamso1z (int a, int b)
+    float ham3thamso1z(float pheptinh, int a, int b)
     {
-        float pheptinh3;
         int c = 0;
-        if (c == 2)
+        float ketqua3 = 0;
+        switch (pheptinh) 
         {
-            pheptinh3 = (a + b + c);
-            Debug.Log(pheptinh3);
+            case 2:
+                ketqua3 = (a * b * c);
+                break;
+            case 7:
+                ketqua3 = (a * b * c);
+                break;
+            case 1:
+                ketqua3 = (a - b - c);
+                break;
+            case 10:
+                ketqua3 = ((a / b) / c);
+                break;
+            case 12:
+                ketqua3 = (c + a);
+                break;
+
         }
-        else if (c == 7)
+        return ketqua3;
+    }
+
+    void tinhtoan3(int a, int b) 
+    {
+        int c = 0;
+        float ketqua4 = 0;
+        float pheptinh4;
+        switch (ketqua4)
         {
-            pheptinh3 = (a * b * c);
-            Debug.Log(pheptinh3);
+            case 2:
+                pheptinh4 = (a * b * c);
+                break;
+            case 7:
+                pheptinh4 = (a * b * c);
+                break;
+            case 1:
+                pheptinh4 = (a - b - c);
+                break;
+            case 10:
+                pheptinh4 = ((a / b) / c);
+                break;
+            case 12:
+                pheptinh4 = (c + a);
+                break;
+
+
         }
-        else if (c == 1)
-        {
-            pheptinh3 = (a - b - c);
-            Debug.Log(pheptinh3);
-        }
-        else if (c==10)
-        {
-            pheptinh3 = ((a / b) / c);
-            Debug.Log(pheptinh3);
-        }
-        else if (c==12)
-        {
-            pheptinh3 = (a + c);
-            Debug.Log(pheptinh3);
-        }
+
 
 
 
     }
-
 
 
     // Update is called once per frame

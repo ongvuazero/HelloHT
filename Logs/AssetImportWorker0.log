@@ -15,7 +15,7 @@ D:/tai lieu/HelloHT
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54999
+51121
 Successfully changed project path to: D:/tai lieu/HelloHT
 D:/tai lieu/HelloHT
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ D:/tai lieu/HelloHT
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 104.87 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 103.34 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.4f1 (cb45f9cae8b7)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/Resources/UnitySubsystems
@@ -63,97 +63,97 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56684
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56184
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006353 seconds.
+Registered in 0.006209 seconds.
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 102.51 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 101.87 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.735 seconds
+- Completed reload, in  0.740 seconds
 Domain Reload Profiling:
-	ReloadAssembly (736ms)
-		BeginReloadAssembly (52ms)
+	ReloadAssembly (740ms)
+		BeginReloadAssembly (76ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (566ms)
-			LoadAssemblies (51ms)
+		EndReloadAssembly (545ms)
+			LoadAssemblies (74ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (116ms)
+			SetupTypeCache (113ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (363ms)
+			SetupLoadedEditorAssemblies (344ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (72ms)
-				SetLoadedEditorAssemblies (3ms)
-				RefreshPlugins (103ms)
+				InitializePlatformSupportModulesInManaged (75ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (102ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (124ms)
-				ProcessInitializeOnLoadMethodAttributes (60ms)
+				ProcessInitializeOnLoadAttributes (106ms)
+				ProcessInitializeOnLoadMethodAttributes (57ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003240 seconds.
+Registered in 0.003649 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\tai lieu\HelloHT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\tai lieu\HelloHT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.221 seconds
+- Completed reload, in  1.238 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1222ms)
-		BeginReloadAssembly (200ms)
+	ReloadAssembly (1239ms)
+		BeginReloadAssembly (219ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (121ms)
-		EndReloadAssembly (890ms)
-			LoadAssemblies (65ms)
+			CreateAndSetChildDomain (130ms)
+		EndReloadAssembly (874ms)
+			LoadAssemblies (68ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (267ms)
+			SetupTypeCache (254ms)
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (58ms)
-			SetupLoadedEditorAssemblies (427ms)
+			SetupLoadedEditorAssemblies (428ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (28ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (99ms)
-				ProcessInitializeOnLoadAttributes (260ms)
-				ProcessInitializeOnLoadMethodAttributes (32ms)
-				AfterProcessingInitializeOnLoad (7ms)
+				BeforeProcessingInitializeOnLoad (102ms)
+				ProcessInitializeOnLoadAttributes (255ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3253 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 25 unused Assets / (86.2 KB). Loaded Objects now: 3711.
-Memory consumption went from 112.0 MB to 111.9 MB.
-Total: 2.752700 ms (FindLiveObjects: 0.278100 ms CreateObjectMapping: 0.147200 ms MarkObjects: 2.229700 ms  DeleteObjects: 0.096400 ms)
+Memory consumption went from 111.8 MB to 111.7 MB.
+Total: 2.255700 ms (FindLiveObjects: 0.217500 ms CreateObjectMapping: 0.092500 ms MarkObjects: 1.868000 ms  DeleteObjects: 0.076800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -167,381 +167,103 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 5823.512125 seconds.
+  Time since last request: 9101.730900 seconds.
   path: Assets/baitapvenha1.cs
   artifactKey: Guid(4056d3176d3fc37498553d4a8d20341c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/baitapvenha1.cs using Guid(4056d3176d3fc37498553d4a8d20341c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc5e3e4daf1d65284127e6ccb6e9f538') in 0.043149 seconds 
+Start importing Assets/baitapvenha1.cs using Guid(4056d3176d3fc37498553d4a8d20341c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d4e32ced7be160a9340d443acaa6cf6') in 0.109645 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 916.818574 seconds.
+  Time since last request: 14.164325 seconds.
   path: Assets/baitapvenha1.cs
   artifactKey: Guid(4056d3176d3fc37498553d4a8d20341c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/baitapvenha1.cs using Guid(4056d3176d3fc37498553d4a8d20341c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18b0b700b0a6266702157e2c869cd8c3') in 0.004140 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003053 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\tai lieu\HelloHT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\tai lieu\HelloHT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.081 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1082ms)
-		BeginReloadAssembly (202ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (15ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (69ms)
-		EndReloadAssembly (775ms)
-			LoadAssemblies (101ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (242ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (358ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (35ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (73ms)
-				ProcessInitializeOnLoadAttributes (212ms)
-				ProcessInitializeOnLoadMethodAttributes (30ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.41 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3248 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 18 unused Assets / (53.3 KB). Loaded Objects now: 3714.
-Memory consumption went from 112.0 MB to 111.9 MB.
-Total: 3.425300 ms (FindLiveObjects: 0.440900 ms CreateObjectMapping: 0.085900 ms MarkObjects: 2.784200 ms  DeleteObjects: 0.112200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Start importing Assets/baitapvenha1.cs using Guid(4056d3176d3fc37498553d4a8d20341c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7db218870b7e47114ed603943e5067e2') in 0.002394 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 44.597105 seconds.
+  Time since last request: 6.943017 seconds.
   path: Assets/baitapvenha1.cs
   artifactKey: Guid(4056d3176d3fc37498553d4a8d20341c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/baitapvenha1.cs using Guid(4056d3176d3fc37498553d4a8d20341c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '746becc8e960f0abe0545c80a04c7de2') in 0.026466 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003150 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\tai lieu\HelloHT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\tai lieu\HelloHT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.016 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1017ms)
-		BeginReloadAssembly (152ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (51ms)
-		EndReloadAssembly (760ms)
-			LoadAssemblies (80ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (234ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (358ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (34ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (72ms)
-				ProcessInitializeOnLoadAttributes (214ms)
-				ProcessInitializeOnLoadMethodAttributes (29ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (13ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.52 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3248 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 18 unused Assets / (53.2 KB). Loaded Objects now: 3717.
-Memory consumption went from 112.0 MB to 111.9 MB.
-Total: 3.057400 ms (FindLiveObjects: 0.363400 ms CreateObjectMapping: 0.083900 ms MarkObjects: 2.520200 ms  DeleteObjects: 0.088400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Start importing Assets/baitapvenha1.cs using Guid(4056d3176d3fc37498553d4a8d20341c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9381d56e835da2649f357c46329fd80') in 0.001952 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 26.816681 seconds.
+  Time since last request: 42.836953 seconds.
   path: Assets/baitapvenha1.cs
   artifactKey: Guid(4056d3176d3fc37498553d4a8d20341c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/baitapvenha1.cs using Guid(4056d3176d3fc37498553d4a8d20341c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ed9701050a9c409cef9b3b85927adca') in 0.024942 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003140 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\tai lieu\HelloHT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\tai lieu\HelloHT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.009 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1010ms)
-		BeginReloadAssembly (158ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (54ms)
-		EndReloadAssembly (749ms)
-			LoadAssemblies (86ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (230ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (40ms)
-			SetupLoadedEditorAssemblies (349ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (35ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (72ms)
-				ProcessInitializeOnLoadAttributes (204ms)
-				ProcessInitializeOnLoadMethodAttributes (31ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.46 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3248 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 18 unused Assets / (53.2 KB). Loaded Objects now: 3720.
-Memory consumption went from 112.0 MB to 111.9 MB.
-Total: 3.368700 ms (FindLiveObjects: 0.466800 ms CreateObjectMapping: 0.103100 ms MarkObjects: 2.634100 ms  DeleteObjects: 0.162200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Start importing Assets/baitapvenha1.cs using Guid(4056d3176d3fc37498553d4a8d20341c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbde7c587829bd9a7572b1f73aebf8ed') in 0.002096 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 53.865192 seconds.
+  Time since last request: 102.657121 seconds.
   path: Assets/baitapvenha1.cs
   artifactKey: Guid(4056d3176d3fc37498553d4a8d20341c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/baitapvenha1.cs using Guid(4056d3176d3fc37498553d4a8d20341c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '365acb4811f213d1ab277d474055d054') in 0.025876 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003295 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\tai lieu\HelloHT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\tai lieu\HelloHT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.038 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1039ms)
-		BeginReloadAssembly (158ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (54ms)
-		EndReloadAssembly (772ms)
-			LoadAssemblies (82ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (242ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (355ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (36ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (73ms)
-				ProcessInitializeOnLoadAttributes (205ms)
-				ProcessInitializeOnLoadMethodAttributes (33ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (14ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.47 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3248 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 18 unused Assets / (53.3 KB). Loaded Objects now: 3723.
-Memory consumption went from 112.0 MB to 111.9 MB.
-Total: 3.169000 ms (FindLiveObjects: 0.385700 ms CreateObjectMapping: 0.084100 ms MarkObjects: 2.606900 ms  DeleteObjects: 0.090100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Start importing Assets/baitapvenha1.cs using Guid(4056d3176d3fc37498553d4a8d20341c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e3c80da324ec9f8e11360dfe00338a8') in 0.004555 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 24.961487 seconds.
+  Time since last request: 3.021779 seconds.
   path: Assets/baitapvenha1.cs
   artifactKey: Guid(4056d3176d3fc37498553d4a8d20341c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/baitapvenha1.cs using Guid(4056d3176d3fc37498553d4a8d20341c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9822e1db57a9f7c77d805bfc58db9818') in 0.025070 seconds 
+Start importing Assets/baitapvenha1.cs using Guid(4056d3176d3fc37498553d4a8d20341c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9e155992021aebdb91071f320b7e064') in 0.001529 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 105.539496 seconds.
+  Time since last request: 102.985865 seconds.
   path: Assets/baitapvenha1.cs
   artifactKey: Guid(4056d3176d3fc37498553d4a8d20341c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/baitapvenha1.cs using Guid(4056d3176d3fc37498553d4a8d20341c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec406518e25e0ef758f04e97162b2526') in 0.002413 seconds 
+Start importing Assets/baitapvenha1.cs using Guid(4056d3176d3fc37498553d4a8d20341c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1db13a1cc6fddbbd722e2aeceacce64') in 0.002221 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 106.066831 seconds.
+  Time since last request: 47.081921 seconds.
   path: Assets/baitapvenha1.cs
   artifactKey: Guid(4056d3176d3fc37498553d4a8d20341c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/baitapvenha1.cs using Guid(4056d3176d3fc37498553d4a8d20341c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7ae0356d912159bbfba95d646856352') in 0.002351 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003143 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\tai lieu\HelloHT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\tai lieu\HelloHT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.987 seconds
-Domain Reload Profiling:
-	ReloadAssembly (988ms)
-		BeginReloadAssembly (155ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (52ms)
-		EndReloadAssembly (731ms)
-			LoadAssemblies (81ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (220ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (41ms)
-			SetupLoadedEditorAssemblies (346ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (34ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (72ms)
-				ProcessInitializeOnLoadAttributes (201ms)
-				ProcessInitializeOnLoadMethodAttributes (31ms)
-				AfterProcessingInitializeOnLoad (9ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.75 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3248 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 18 unused Assets / (53.4 KB). Loaded Objects now: 3726.
-Memory consumption went from 112.0 MB to 111.9 MB.
-Total: 8.800000 ms (FindLiveObjects: 1.900800 ms CreateObjectMapping: 0.224300 ms MarkObjects: 6.279900 ms  DeleteObjects: 0.393100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Start importing Assets/baitapvenha1.cs using Guid(4056d3176d3fc37498553d4a8d20341c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '790177ec9ddc475d2b69c6784b7255e1') in 0.002068 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 230.739335 seconds.
+  Time since last request: 122.863857 seconds.
   path: Assets/baitapvenha1.cs
   artifactKey: Guid(4056d3176d3fc37498553d4a8d20341c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/baitapvenha1.cs using Guid(4056d3176d3fc37498553d4a8d20341c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18906140d29249a9e5e65d44a9a473c0') in 0.029077 seconds 
+Start importing Assets/baitapvenha1.cs using Guid(4056d3176d3fc37498553d4a8d20341c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '030f9a80bc1d6c65de9e5284a4777263') in 0.002179 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 66.566294 seconds.
+  Time since last request: 3.562960 seconds.
   path: Assets/baitapvenha1.cs
   artifactKey: Guid(4056d3176d3fc37498553d4a8d20341c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/baitapvenha1.cs using Guid(4056d3176d3fc37498553d4a8d20341c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ae26e4591e0404e1f080bd45388715c') in 0.002276 seconds 
+Start importing Assets/baitapvenha1.cs using Guid(4056d3176d3fc37498553d4a8d20341c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daca4f3fbe0b59fcda099fc4d7b182cc') in 0.003166 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 70.331741 seconds.
+  Time since last request: 61.301348 seconds.
   path: Assets/baitapvenha1.cs
   artifactKey: Guid(4056d3176d3fc37498553d4a8d20341c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/baitapvenha1.cs using Guid(4056d3176d3fc37498553d4a8d20341c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72c414fb9613fc149dc0ed8ae153de38') in 0.003803 seconds 
+Start importing Assets/baitapvenha1.cs using Guid(4056d3176d3fc37498553d4a8d20341c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5ab04e1c844ee697642a63cad2f480a') in 0.002435 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.619548 seconds.
+  Time since last request: 20.806304 seconds.
   path: Assets/baitapvenha1.cs
   artifactKey: Guid(4056d3176d3fc37498553d4a8d20341c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/baitapvenha1.cs using Guid(4056d3176d3fc37498553d4a8d20341c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbc2e7b8b04950bd9781179c9c55a60e') in 0.002276 seconds 
+Start importing Assets/baitapvenha1.cs using Guid(4056d3176d3fc37498553d4a8d20341c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d677aee59597f1935f428738cb85a9f') in 0.001925 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 33.574795 seconds.
+  Time since last request: 22.373817 seconds.
   path: Assets/baitapvenha1.cs
   artifactKey: Guid(4056d3176d3fc37498553d4a8d20341c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/baitapvenha1.cs using Guid(4056d3176d3fc37498553d4a8d20341c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26f815a583b916b584fbb668e2ca4e02') in 0.003654 seconds 
+Start importing Assets/baitapvenha1.cs using Guid(4056d3176d3fc37498553d4a8d20341c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc1343b4bd877961658d20b99bd4e8ec') in 0.002066 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 76.072485 seconds.
+  Time since last request: 12.745229 seconds.
   path: Assets/baitapvenha1.cs
   artifactKey: Guid(4056d3176d3fc37498553d4a8d20341c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/baitapvenha1.cs using Guid(4056d3176d3fc37498553d4a8d20341c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ccb53614e1edce174d74d1e5994e2ef') in 0.003063 seconds 
+Start importing Assets/baitapvenha1.cs using Guid(4056d3176d3fc37498553d4a8d20341c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68bdc69760278a3d8183b2ee4fb4f4cb') in 0.002063 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 227.893504 seconds.
+  Time since last request: 15.916788 seconds.
   path: Assets/baitapvenha1.cs
   artifactKey: Guid(4056d3176d3fc37498553d4a8d20341c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/baitapvenha1.cs using Guid(4056d3176d3fc37498553d4a8d20341c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e96ff6e3fcaa0e3a2e4a1bc70d8f3da') in 0.005839 seconds 
+Start importing Assets/baitapvenha1.cs using Guid(4056d3176d3fc37498553d4a8d20341c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edfa3e337cb0359a52a9166fdb899688') in 0.001895 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.660166 seconds.
+  path: Assets/baitapvenha1.cs
+  artifactKey: Guid(4056d3176d3fc37498553d4a8d20341c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/baitapvenha1.cs using Guid(4056d3176d3fc37498553d4a8d20341c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b5ec92e6edb22c28dd15c23d3ed4b3d') in 0.002107 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 91.144053 seconds.
+  path: Assets/baitapvenha1.cs
+  artifactKey: Guid(4056d3176d3fc37498553d4a8d20341c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/baitapvenha1.cs using Guid(4056d3176d3fc37498553d4a8d20341c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03fbaa583232984db40ede62d0a63805') in 0.002281 seconds 
