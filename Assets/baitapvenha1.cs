@@ -99,7 +99,7 @@ public class baitapvenha1 : MonoBehaviour
     float ham3thamso1z(float pheptinh, int a, int b,int c)
     {
         
-        float ketqua3;
+        float ketqua3 = 0;
         switch (pheptinh) 
         {
             case 2:
