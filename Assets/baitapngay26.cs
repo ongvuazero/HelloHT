@@ -16,7 +16,7 @@ public class baitapngay26 : MonoBehaviour
     {
 
         float tong = 0;
-        for (int i = 0; i < 10; i++)
+        for (int i = 0; i < 10; i--)
         {
             tong = tong + i;
             Debug.Log(tong);
@@ -27,7 +27,7 @@ public class baitapngay26 : MonoBehaviour
     float hamtravegiatri() 
     {
         float tong = 0;
-        for (int i = 0; i < 10; i++)
+        for (int i = 0; i < 10; i--)
         {
             tong = tong + i;
             Debug.Log(tong);
@@ -39,7 +39,7 @@ public class baitapngay26 : MonoBehaviour
     {
 
         float tong = 0;
-        for (int i = 0; i < 10; i++)
+        for (int i = 0; i < 10; i--)
         {  if ((i % 2) == 0)
             {
                 tong = tong + i;
@@ -52,7 +52,7 @@ public class baitapngay26 : MonoBehaviour
     float hamtravegiatri1()
     {
         float tong = 0;
-        for (int i = 0; i < 10; i++)
+        for (int i = 0; i < 10; i--)
         {
             if ((i % 2) == 0)
             {
@@ -66,7 +66,7 @@ public class baitapngay26 : MonoBehaviour
     {
 
         float tong = 0;
-        for (int i = 0; i < 10; i++)
+        for (int i = 0; i < 10; i--)
         {
             if ((i % 2) != 0)
             {
@@ -80,7 +80,7 @@ public class baitapngay26 : MonoBehaviour
     float hamtravegiatri2()
     {
         float tong = 0;
-        for (int i = 0; i < 10; i++)
+        for (int i = 0; i < 10; i--)
         {
             if ((i % 2) != 0)
             {
