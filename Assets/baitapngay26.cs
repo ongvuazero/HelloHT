@@ -5,35 +5,37 @@ using UnityEngine;
 public class baitapngay26 : MonoBehaviour
 {
     // 10 9 8 7 6 5 4 3 2 1
-
+    
 
     // Start is called before the first frame update
     void Start()
     {
 
-        float sochanle = 0;
-        for (int i = 10; i < 10; i--)
-        {
+        /*
+          float sochanle = 0;
+          for (int i = 10; i > 0; i--)
+          {
 
-            if ((i % 2) == 0 & i < 8)
-            {
-                sochanle = i;
-                Debug.Log(sochanle);
-            }
-            else if ((i % 2) != 0 & i < 7)
-            {
-                sochanle = i;
-                Debug.Log(sochanle);
-            }
-            
-
-        }
+              if ((i % 2) == 0 && i < 8)
+              {
+                  sochanle = i;
+                  Debug.Log(sochanle);
+              }
+              else if ((i % 2) != 0 && i < 7)
+              {
+                  sochanle = i;
+                  Debug.Log(sochanle);
+              }
+          }
+        */
+        //TinhTong();
+        // TimSoChanLe();
     }
-    void khongtrave() 
+     void TinhTong() 
     {
 
         float tong = 0;
-        for (int i = 10; i < 10; i--)
+        for (int i = 10; i > 0; i--)
         {
            
 
@@ -42,10 +44,10 @@ public class baitapngay26 : MonoBehaviour
         }
        
     }
-    float hamtravegiatri() 
+    float TinhTongTraVe() 
     {
         float tong = 0;
-        for (int i = 10; i < 10; i--)
+        for (int i = 10; i > 0; i--)
         {
             tong = tong + i;
             Debug.Log(tong);
@@ -53,11 +55,11 @@ public class baitapngay26 : MonoBehaviour
 
         return tong;
     }
-    void khongtrave1()
+    void TinhTongSoChan()
     {
 
         float tong = 0;
-        for (int i = 10; i < 10; i--)
+        for (int i = 10; i > 0; i--)
         {  if ((i % 2) == 0)
             {
                 tong = tong + i;
@@ -67,10 +69,10 @@ public class baitapngay26 : MonoBehaviour
 
 
     }
-    float hamtravegiatri1()
+    float TinhTongSoChanTraVe()
     {
         float tong = 0;
-        for (int i = 10; i < 10; i--)
+        for (int i = 10; i > 0; i--)
         {
             if ((i % 2) == 0)
             {
@@ -80,11 +82,11 @@ public class baitapngay26 : MonoBehaviour
         }
         return tong;
     }
-    void khongtrave2()
+    void TinhTongSoLe()
     {
 
         float tong = 0;
-        for (int i = 10; i < 10; i--)
+        for (int i = 10; i > 0; i--)
         {
             if ((i % 2) != 0)
             {
@@ -95,10 +97,10 @@ public class baitapngay26 : MonoBehaviour
 
 
     }
-    float hamtravegiatri2()
+    float TinhTongSoLeTrave()
     {
         float tong = 0;
-        for (int i = 10; i < 10; i--)
+        for (int i = 10; i > 0; i--)
         {
             if ((i % 2) != 0)
             {
@@ -109,21 +111,21 @@ public class baitapngay26 : MonoBehaviour
         return tong;
     }
 
-     void khongtravegiatir()
+     void TimSoChanLe()
     {
-        for (int i = 10; i < 10; i--)
+        for (int i = 10; i > 0; i--)
         {
-            if ((i % 2) == 0 & i < 8)
+            if ((i % 2) == 0 && i < 8)
             {
 
-                Debug.Log(i);
+                Debug.Log("so chan nho hon 8 la " +i);
 
 
             }
-            else if ((i%2)!=0 & i < 7 )       
+            else if ((i%2)!=0 && i < 7 )       
             {
 
-                Debug.Log(i);
+                Debug.Log("so le nho hon 7 la " + i);
             
             }
     }
