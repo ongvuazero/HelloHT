@@ -14,6 +14,16 @@ sysinfo.txt
 *.pidb.meta
 
 ###
+# Node / Vite prototype
+###
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+.vite/
+**/.vite/
+
+###
 # VS/MD solution and project files
 ###
 [Ee]xportedObj/
