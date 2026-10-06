@@ -1,0 +1,47 @@
+{
+  "version": "2.0",
+  "source_image": "tây_du_kỳ_trận_tam_giới_tranh_hùng.png",
+  "source_size": [1672, 941],
+  "coordinate_space": "normalized_0_to_1",
+  "annotation_method": "manual polygon trace on approved mockup; Roboflow-style segmentation",
+  "approved_layout": {
+    "enemy_board": {
+      "rows": 3,
+      "cols": 10,
+      "top_left": [0.233254, 0.201913],
+      "top_right": [0.764354, 0.201913],
+      "bottom_right": [0.796651, 0.397450],
+      "bottom_left": [0.199163, 0.397450]
+    },
+    "player_board": {
+      "rows": 3,
+      "cols": 10,
+      "top_left": [0.199163, 0.407014],
+      "top_right": [0.796651, 0.407014],
+      "bottom_right": [0.815789, 0.646121],
+      "bottom_left": [0.183014, 0.646121]
+    },
+    "reserve_bench": {
+      "rows": 1,
+      "cols": 10,
+      "top_left": [0.159091, 0.666312],
+      "top_right": [0.801435, 0.666312],
+      "bottom_right": [0.813995, 0.755579],
+      "bottom_left": [0.150120, 0.755579]
+    },
+    "equipment_inventory": {
+      "rows": 2,
+      "cols": 5,
+      "capacity": 10,
+      "box": [0.653110, 0.818278, 0.319976, 0.155155]
+    }
+  },
+  "rules": [
+    "Enemy board = 3x10 visible battlefield cells.",
+    "Player board = 3x10 visible battlefield cells.",
+    "Reserve bench = 10 visible cells and must remain visible in preparation.",
+    "Equipment inventory = 10 visible cells arranged 5x2.",
+    "Normalized coordinates are runtime source of truth.",
+    "Debug annotation lines are never baked into production art."
+  ]
+}
