@@ -18,7 +18,8 @@ export interface BoxGridLayout {
   h: number;
 }
 
-// Mirrors Tools/TayDuKyTran/board_grid_layout_v1.json.
+// Mirrors Tools/TayDuKyTran/board_grid_layout_v2_roboflow_style.json.
+// Coordinates are traced directly from the approved mockup.
 // 1280x720 is the logical design resolution. Rendering scales uniformly.
 export const LOGICAL_WIDTH = 1280;
 export const LOGICAL_HEIGHT = 720;
@@ -27,34 +28,34 @@ export const BOARD_LAYOUT = {
   enemy: {
     rows: 3,
     cols: 10,
-    topLeft: [0.252, 0.205] as Point,
-    topRight: [0.748, 0.205] as Point,
-    bottomRight: [0.798, 0.396] as Point,
-    bottomLeft: [0.202, 0.396] as Point,
+    topLeft: [0.233254, 0.201913] as Point,
+    topRight: [0.764354, 0.201913] as Point,
+    bottomRight: [0.796651, 0.397450] as Point,
+    bottomLeft: [0.199163, 0.397450] as Point,
   },
   player: {
     rows: 3,
     cols: 10,
-    topLeft: [0.202, 0.405] as Point,
-    topRight: [0.798, 0.405] as Point,
-    bottomRight: [0.835, 0.655] as Point,
-    bottomLeft: [0.165, 0.655] as Point,
+    topLeft: [0.199163, 0.407014] as Point,
+    topRight: [0.796651, 0.407014] as Point,
+    bottomRight: [0.815789, 0.646121] as Point,
+    bottomLeft: [0.183014, 0.646121] as Point,
   },
   bench: {
     rows: 1,
     cols: 10,
-    x: 0.165,
-    y: 0.666,
-    w: 0.688,
-    h: 0.089,
+    x: 0.150120,
+    y: 0.666312,
+    w: 0.663875,
+    h: 0.089267,
   },
   equipment: {
     rows: 2,
     cols: 5,
-    x: 0.681,
-    y: 0.787,
-    w: 0.304,
-    h: 0.195,
+    x: 0.653110,
+    y: 0.818278,
+    w: 0.319976,
+    h: 0.155155,
   },
 } satisfies {
   enemy: QuadGridLayout;
