@@ -1,0 +1,47 @@
+{
+  "version": "1.0",
+  "coordinate_space": "normalized_0_to_1",
+  "approved_layout": {
+    "enemy_board": {
+      "rows": 3,
+      "cols": 10,
+      "top_left": [0.252, 0.205],
+      "top_right": [0.748, 0.205],
+      "bottom_right": [0.798, 0.396],
+      "bottom_left": [0.202, 0.396]
+    },
+    "player_board": {
+      "rows": 3,
+      "cols": 10,
+      "top_left": [0.202, 0.405],
+      "top_right": [0.798, 0.405],
+      "bottom_right": [0.835, 0.655],
+      "bottom_left": [0.165, 0.655]
+    },
+    "reserve_bench": {
+      "rows": 1,
+      "cols": 10,
+      "box": [0.165, 0.666, 0.853, 0.755]
+    },
+    "equipment_inventory": {
+      "rows": 2,
+      "cols": 5,
+      "capacity": 10,
+      "box": [0.681, 0.787, 0.985, 0.982]
+    }
+  },
+  "debug_colors": {
+    "enemy_board": "red",
+    "player_board": "green",
+    "reserve_bench": "cyan",
+    "equipment_inventory": "gold"
+  },
+  "rules": [
+    "Both sides use 3x10 visible battlefield grids.",
+    "Reserve bench remains visible and supports 10 slots.",
+    "Equipment inventory uses 5 columns x 2 rows = 10 visible item slots.",
+    "Do not remove the reserve bench to make room for equipment.",
+    "Use normalized coordinates so the overlay scales with viewport resolution.",
+    "Debug lines are not baked into production art."
+  ]
+}
